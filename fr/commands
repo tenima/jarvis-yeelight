@@ -1,0 +1,4 @@
+*ALLUM*TOU*==say "OK !" && $(pg_ye_on_all) > /dev/null  && say "J'ai tout allumé !"
+*ETEIN*TOU*==say "OK !" && $(pg_ye_off_all) > /dev/null  && say "J'ai tout éteint!"
+*ALLUM*LE (*)|*ALLUM*LA (*)==say "OK !" && $(pg_ye_on_one (1)) > /dev/null  && say "J'ai allumé la pièce "(1)"!"
+*ETEIN*LE (*)|*ETEIN*LA (*)==say "OK !" && $(pg_ye_off_one (1)) > /dev/null  && say "J'ai éteint la pièce "(1)"!"
