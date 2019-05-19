@@ -24,10 +24,11 @@ You: Allume le salon
 Jarvis: OK !
 Jarvis: J'ai allumé la pièce salon !
 ```
-
+```
 You: Allume tout
 Jarvis: OK !
 Jarvis: J'ai tout allumé
+```
 ```
 You: Eteint la chambre
 Jarvis: OK !
